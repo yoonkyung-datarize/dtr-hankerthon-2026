@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     anthropic_max_tokens: int = 4096
     anthropic_timeout_seconds: int = 60
 
-    max_requests_per_site: int = 10
+    max_requests_per_site: int = 1000
     rate_limit_ttl_hours: int = 24
 
     allowed_origins: str = "*"
